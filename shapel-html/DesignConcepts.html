@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="icon" href="./statics/WhatsApp_Image_2024-12-25_at_11.30.17_6d85f79f-removebg-preview-Photoroom.png" type="image/gif" />
+
+  <title>Spring Design</title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+<style>
+    .img1{
+        width: 200px;
+        height: 200px;
+    }
+    
+    @media (max-width: 991px) {
+      .navbar-collapse {
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 75%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.9);
+      }
+
+      .navbar-collapse.collapsing {
+        left: -75%;
+      }
+
+      .navbar-collapse.show {
+        left: 0;
+        transition: left 300ms ease;
+      }
+
+      .navbar-toggler {
+        border: none;
+      }
+    }
+
+    .navbar-toggler {
+      border: 2px solid white;
+    }
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    .nav-link:hover {
+      transform: scale(1.1);
+      font-weight: bold;
+    }
+
+    .text-container {
+      background-color: rgba(0, 100, 0, 0.1);
+      padding: 20px;
+      border-radius: 8px;
+    }
+</style>
+</head>
+
+<body>
+  <!-- header section strats -->
+  <header style="background-color: rgba(0, 100, 0, 0.7);" class="header_section innerpage_header">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg custom_nav-container">
+        <a class="navbar-brand" href="index.html">
+          <span>
+            <img src="./statics/spring_design_updated.png" alt="Shapel Logo" style="height: 85px; width: auto; margin-right: 10px;">
+            Spring Design
+          </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" style="color: white; transition: all 0.3s ease;">Home</a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white; transition: all 0.3s ease;">
+                  Services
+                </a>
+                <div class="dropdown-menu" aria-labelledby="servicesDropdown" style="background-color: rgba(255, 255, 255, 0.95); border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); padding: 10px 0; min-width: 200px; margin-top: 10px;">
+                    <a class="dropdown-item" href="./onsitec.html">On-site Consultations</a>
+                    <a class="dropdown-item" href="./PS&A.html">Project Survey and Analysis</a>
+                    <a class="dropdown-item" href="./DesignConcepts.html">Design Concepts</a>
+                    <a class="dropdown-item" href="./F&F.html">Finishes & Furnishing</a>
+                    <a class="dropdown-item" href="./CustomDesigns.html">Custom Designs</a>
+                    <a class="dropdown-item" href="./PD&I.html">Purchasing,Delivery and Installation</a>
+                    <a class="dropdown-item" href="./PC&M.html">Project Coordination and Management</a>
+                    <a class="dropdown-item" href="./NewHome.html">New Home Construction</a>
+                    <a class="dropdown-item" href="./Remodeling.html">Remodeling Projects</a>
+                    <a class="dropdown-item" href="./ExistingnSpaces.html">Interior Design of Existing Spaces</a>
+                    <a class="dropdown-item" href="./WaterProofing.html">Water Proofing and Insulation</a>
+                    <a class="dropdown-item" href="./GlassBulletProofing.html">Glass Bullet Proofing</a>
+                  </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" style="color: white; transition: all 0.3s ease;">About US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html" style="color: white; transition: all 0.3s ease;">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html" style="color: white; transition: all 0.3s ease;">Downloads</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html" style="color: white; transition: all 0.3s ease;">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- end header section -->
+
+
+  <!-- on-site consultations section -->
+  <section class="about_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="img-box">
+            <img style="width: 400px; height: 400px; border: 3px solid #333; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" src="./statics/image copy 2.png" alt="Design Concepts">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box text-container" style="text-align: left;">
+            <h2 style="padding-bottom: 20px;">
+              DESIGN CONCEPTS
+            </h2>
+            <p style="margin-top: 0;">
+              <span style="font-weight: bold;">The design concept </span> can begin with a treasured piece of fabric or furniture, or simply a blank page. The goal is to attain the "look" and "feel" a client wants, from "light and airy" to "rich and elegant" to "comfortable and cozy." Each project develops its own flavor from the unique selection of fabrics, furniture, and finish.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end on-site consultations section -->
+
+  
+  <!-- info section -->
+  <section style="background-color: rgba(0, 100, 0, 0.7);" class="info_section innerpage_info_section">
+    <div class="container">
+      <div class="row info_main_row">
+        <div class="col-md-6 col-lg-3">
+          <div class="info_insta">
+            <h4>
+              <a href="index.html" class="navbar-brand m-0 p-0">
+                <span>
+                  Spring Design
+                </span>
+              </a>
+            </h4>
+            <p class="mb-0">
+              Our responsibility as interior designers is to take the client's design goals and utilize our skills and resources to come up with the best solution that meets our client's requirements.            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="info_detail">
+            <h4>
+              Company
+            </h4>
+            <p class="mb-0">
+              We transform your ideas into Reality! Our mission has always been to providing the best by exceeding customers' expectations for services.           </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <h4>
+            Contact Us
+          </h4>
+          <div class="info_contact">
+            <a href="">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                Dubai, UAE
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>
+                +97150-5366326
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-envelope"></i>
+              <span>
+                m.masri@springdesignuae.com
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <h4>
+            Follow Us
+          </h4>
+          <div class="social_box">
+            <a href="https://www.facebook.com/springdesignuae">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://x.com/@springdesignuae">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="https://linkedin.com/company/spring-design?_l=en_US">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+    </div>
+  </footer>
+  <!-- footer section -->
+
+
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
